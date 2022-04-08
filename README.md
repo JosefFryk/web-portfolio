@@ -9,7 +9,7 @@ HTML, CSS, JavaScript and Bootstrap 5 Portfolio Website
 * [jQuery](https://jquery.com/)
 
 $ Inspiration $
-*[HTLM5]    (https://html5up.net/)
+* [HTLM5](https://html5up.net/)
 
 This is the [live demo](#) of the project . 
 
