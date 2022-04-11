@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "emailjs-com": "^3.2.0", 
+    "emailjs-com": "^3.2.0",
     "regex": "^0.1.1"
   }
 }

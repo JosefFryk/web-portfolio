@@ -11,5 +11,5 @@ HTML, CSS, JavaScript and Bootstrap 5 Portfolio Website
 $ Inspiration $
 * [HTLM5](https://html5up.net/)
 
-This is the [live demo](#) of the project . 
+This is the [live demo](https://joseffryk.netlify.app) of the project . 
 
