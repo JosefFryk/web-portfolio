@@ -91,6 +91,22 @@
     background-color: #736f7e;
     text-align: center;
 }
+/* buttons */
+.text-center {
+    justify-content: space-between;
+}
+
+#btn-git {
+    font-size: 1rem;
+    border-style: solid;
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border-color: #000000;
+    border-width: 0.05rem;
+
+}
 
 
 @media screen and (max-width: 736px) {
@@ -129,7 +145,7 @@
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
+code, del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
@@ -570,4 +586,41 @@ repeat;
     }
 
 
-/*     form        */
+/*     test       */
+.overlay {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    align-items: center;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+  
+  .overlay img{
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    transform: scale(0.95);
+    transition: transform .3s;
+  }
+  
+  .overlay:target {
+    visibility: visible;
+    outline: none;
+    cursor: default;
+    display: block;
+  }
+  
+  .overlay:target img {
+      transform: scale(1);
+  }
+
+
