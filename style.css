@@ -56,8 +56,71 @@
 }
 
 /* services section css */
+.cardBox {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    
+}
+
+#services {
+    width: 100%;
+}
+
+.containerServices{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.containerServices h3 {
+    color: rgb(117, 116, 116);
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+.containerServices p {
+    font-size: 1.3rem;
+}
+
+.servicesBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    gap: 20px;
+}
+
+.servicesBtn button {
+    height: 60px;
+    width: 150px;
+    border-radius: 15px;
+    border-color: black;
+    color: white;
+    background: #4D5B9E;
+}
+
+.servicesBtn span {
+    color: rgb(117, 116, 116);
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+  
+}
+
 .servicesText.card {
-    height: 280px;
+    height: 400px;
     cursor: pointer;
   }
 .servicesIcon {
@@ -67,6 +130,7 @@
 }
 .card-title {
     text-align: center;
+    font-size: 2rem;
 }
 .card:hover .servicesIcon {
     color: #260080;
@@ -135,24 +199,16 @@
 }
 
 @media screen and (max-width: 480px) {
-
+    .cardBox{
+        min-width: 300px;
+    }
     html, body {
         min-width: 320px;
     }
 
 }
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+div {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -187,12 +243,7 @@ body {
         transition: none !important;
     }
 
-.card-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 /* background */
 #bg {
