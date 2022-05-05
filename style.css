@@ -548,22 +548,26 @@ repeat;
         flex-direction: row;
         gap: 1rem;
         flex-wrap: wrap;
+       
     }
     .skill-text{
         margin: 0;
         font-size: 1rem;
     }
     .skill{
+        display: flex;
         align-items: center;
         gap: 0.3rem;
         padding: 0.4rem 1rem;
         border-radius: .25rem;
         justify-content: space-between;
+
     
     }
     .skill h4{
         font-weight: 500;
         font-size: 1.1rem;
+        margin: 0;
     }
     .js{
         background-color:#f7df1e;
@@ -616,6 +620,14 @@ repeat;
     .react h4{ 
         color: #61DAFB;
     }
+    .typescript {
+        background-color: #FFFFFF;
+        color: #000000;
+        border:1px solid #736f7e;
+    }
+
+
+
     .cad{
         background-color: #c9c9c9;
         color: #020000;
