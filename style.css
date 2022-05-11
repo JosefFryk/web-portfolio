@@ -66,6 +66,14 @@
     
 }
 
+.card {
+    min-height: 425px;
+}
+
+.card-img-top {
+    max-height: 189px;
+}
+
 #services {
     width: 100%;
 }
