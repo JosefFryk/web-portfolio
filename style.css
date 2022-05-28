@@ -147,6 +147,69 @@
     border: 1px solid #130080;
 }
 
+/* portfolio */
+
+/* flipping cards  */
+.portfolioCard {
+    text-align: center;
+    position: relative;
+    padding: 15em 5em;
+    transition: transform 3s;
+    transform-style: preserve-3d;
+}
+.portfolio-wrapper:hover .portfolioCard {
+    transform: rotateY(.5turn);
+  }
+
+.card-front, .card-back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    display: grid;
+    align-content: center;
+}
+.card-front{
+    background-color: var(--clr);
+    background-size: cover;
+    background-blend-mode: overlay;
+    color: #333;
+    padding: 5em 3em;
+}
+.card-front::before {
+    content: '';
+    position: absolute;
+    --spacer: 1em;
+    top: var(--spacer);
+    bottom: var(--spacer);
+    left: var(--spacer);
+    right: var(--spacer);
+    border: 3px solid currentColor;
+    transform: var(--level-one);
+  }
+  .card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotateY(.5turn);
+    color: var(--clr);
+    background: #333;
+    padding: 2rem 2rem;
+    
+  }
+ 
+.back-img {
+    border: 2px solid #198754;
+    width: 100%;
+    height: 80%;
+}
+
+
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
@@ -165,7 +228,8 @@
 }
 /* buttons */
 .text-center {
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
 #btn-git {
@@ -178,6 +242,9 @@
     border-color: #000000;
     border-width: 0.05rem;
 
+}
+#link-btn {
+    vertical-align: baseline;
 }
 
 
