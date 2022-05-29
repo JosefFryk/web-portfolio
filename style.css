@@ -3,15 +3,7 @@
     background-color: black;
 }
 
-.navbar {
-    /* border-style: solid;
-    border-bottom-width:1px;
-    border-top-width: 0;
-    border-left: 0;
-    border-right: 0;
-    border-color: #fff; */
 
-}
 /* nav line animation*/
 #linos.nav-white { background:white; }
 #linos.nav-black { background:black;}
