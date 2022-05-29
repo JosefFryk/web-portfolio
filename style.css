@@ -3,11 +3,6 @@
     background-color: black;
 }
 
-
-/* nav line animation*/
-#linos.nav-white { background:white; }
-#linos.nav-black { background:black;}
-
 #linos {
     height: 2px;
     background: white;
