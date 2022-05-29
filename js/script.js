@@ -8,14 +8,14 @@ window.onscroll = function() {
 const header = document.querySelector('.navbar');
 const navLinos = document.querySelector(".line")
 function navBackground () {
-    const top = window.scrollY;
+  const top = window.scrollY;
     if(top >= 950) {
         header.classList.add('navbarDark');
         navLinos.style.background = "red";
     }
     else {
         header.classList.remove('navbarDark');
-        navLinos.style.background = "white";
+        navLinos.style.background = "transparent";
     }
 }
 // collapse navbar after click on small devices
