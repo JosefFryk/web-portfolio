@@ -4,14 +4,67 @@
 }
 
 .navbar {
-    border-style: solid;
+    /* border-style: solid;
     border-bottom-width:1px;
     border-top-width: 0;
     border-left: 0;
     border-right: 0;
-    border-color: #fff;
+    border-color: #fff; */
 
 }
+/* nav line animation*/
+#linos.nav-white { background:white; }
+#linos.nav-black { background:black;}
+
+#linos {
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+
+    -webkit-animation: dude .75s 1 forwards;
+    
+    -moz-animation: dude .75s 1 forwards;
+    
+    -o-animation: dude .75s 1 forwards;
+    
+    animation: dude .75s 1 forwards;
+    
+     }
+    
+         @-webkit-keyframes dude {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    @-moz-keyframes dude {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    @-o-keyframes dude {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+    @keyframes dude {
+      0% {
+        width: 0;
+      }
+      100% {
+        width: 100%;
+      }
+    }
+
 
 
 

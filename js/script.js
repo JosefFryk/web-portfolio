@@ -1,12 +1,21 @@
 // // add class navbarDark on navbar scroll
-const header = document.querySelector('.navbar');
 window.onscroll = function() {
+  navBackground();
+  navLine();
+}
+
+//background
+const header = document.querySelector('.navbar');
+const navLinos = document.querySelector(".line")
+function navBackground () {
     const top = window.scrollY;
-    if(top >=100) {
+    if(top >= 950) {
         header.classList.add('navbarDark');
+        navLinos.style.background = "red";
     }
     else {
         header.classList.remove('navbarDark');
+        navLinos.style.background = "white";
     }
 }
 // collapse navbar after click on small devices
@@ -17,6 +26,7 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
 
+// nav line
 
 
 
