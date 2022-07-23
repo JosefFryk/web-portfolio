@@ -13,4 +13,4 @@ $ Inspiration $
 
 This is the [live demo](https://joseffryk.netlify.app) of the project . 
 
-![image](https://user-images.githubusercontent.com/98749788/167812177-575b7b72-99c5-47f9-a992-d2e94e74a555.png)
+![image](https://user-images.githubusercontent.com/98749788/173235767-4f3eeefe-aee7-4131-a1cb-fd4a223a2439.png)
